@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js && node allserver.js && node sqlserver.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "mongoose": "^8.0.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^3.0.2"
+  }
+}
